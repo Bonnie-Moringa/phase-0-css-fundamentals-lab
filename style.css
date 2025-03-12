@@ -3,3 +3,75 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}
+/* Center the navigation links */
+nav {
+  display: flex;
+  justify-content: center; /* Centers the nav links horizontally */
+  background-color: #f8f9fa; /* Light grey background for nav bar */
+  padding: 10px 0; /* Adds some padding above and below the nav */
+}
+
+/* Style the navigation links */
+nav a {
+  text-decoration: none;
+  color: white; /* Text color */
+  background-color: grey; /* Background color */
+  padding: 10px 20px; /* Padding on left and right */
+  margin: 0 5px; /* Small margin between links */
+  border-radius: 5px; /* Slightly rounded corners */
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for better user experience */
+nav a:hover {
+  background-color: darkgrey; /* Darker grey on hover */
+}
+figcaption {
+  font-size: 14px; /* Adjust the font size */
+  text-align: center; /* Center the caption */
+  color: #555; /* Optional: Slightly muted color */
+  margin-top: 5px; /* Adds a little space between the image and caption */
+}
+#featured-property p {
+  width: 800px; /* Set a fixed width */
+  text-align: center; /* Center the text */
+  margin: 15px auto; /* Center the block and add vertical spacing */
+  line-height: 1.6; /* Improve readability */
+}
+#details {
+  width: 100%; /* Ensure it spans the full width */
+  background-color: #f8f9fa; /* Optional: Light background for better separation */
+  padding: 20px 0; /* Add some vertical padding */
+  display: flex; /* Use flexbox for better control */
+  justify-content: center; /* Center the content horizontally */
+  gap: 40px; /* Add spacing between each section */
+}
+
+#details div {
+  float: left; /* Float each div to the left */
+  width: 22%; /* Set a fixed width so all fit on one line */
+  min-width: 200px; /* Ensure responsiveness */
+  text-align: center; /* Center text in each section */
+}
+#details {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the divs */
+  background-color: #f1f1f1; /* Set a uniform background color */
+  padding: 20px 0; /* Add padding for spacing */
+}
+
+#details div {
+  width: 25%; /* Each div takes up 25% of the row */
+  text-align: center; /* Center the text */
+  background-color: #ddd; /* Set div background color */
+  padding: 15px; /* Add some padding for readability */
+  box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
